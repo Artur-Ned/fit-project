@@ -2,17 +2,18 @@ nav{
     /* background-image: url(img/green_background.jpg); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
-    background: linear-gradient(rgb(201, 201, 223), rgb(255, 250, 192));
+    background: linear-gradient(rgb(255, 250, 192), rgb(201, 201, 223));
     width: 1200px;
     height: 150px;
 }
 
 
 header {
-    background-image: url(img/business-people-shaking-hands-together.jpg);
+    background-image: linear-gradient(rgb(201, 201, 223, 0.4), rgb(255, 250, 192, 0.4)),url(img/business-people-shaking-hands-together.jpg);
     width: 1200px;
     height: 600px;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* .logo{
