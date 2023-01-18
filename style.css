@@ -21,3 +21,21 @@ header {
     width: 150px;
     height: 150px;
 } */
+
+[href="tel:+38067654321"]::before{
+    contain: " ";
+    width: 16px;
+    height: 16px;
+    font-variation-settings:
+            'FILL' 1,
+            'wght' 200,
+            'GRAD' 0,
+            'opsz' 20
+
+}
+
+
+/* .material-symbols-outlined {
+   
+} */
+
