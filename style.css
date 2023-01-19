@@ -13,9 +13,6 @@ a {
 
 
 nav{
-    /* background-image: url(img/green_background.jpg); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
     background: linear-gradient(rgb(255, 250, 192), rgb(201, 201, 223));
     margin-left: auto;
     margin-right: auto;
@@ -24,15 +21,47 @@ nav{
     padding-right: 20px;
     height: auto;
     display: flex;
-
+    padding-top: 5px;
+    position: relative;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-header {
+.nav-list a {
+    color: rgb(139, 69, 19);
+    font-size: 18px;
+    border: 2px solid rgb(139, 69, 19); 
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.nav-list li {
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  
+
+}
+
+.nav-list a:hover {
+    background-color: rgb(139, 69, 19);
+    color: white;
+    
+}
+
+
+
+
+
+
+main {
     background-image: linear-gradient(rgb(201, 201, 223, 0.4), rgb(255, 250, 192, 0.4)),url(img/business-people-shaking-hands-together.jpg);
     margin-left: auto;
     margin-right: auto;
@@ -48,26 +77,40 @@ header {
 
 .logo {
     text-align: center;
+
     
 }
 
-h3 {
+/* h3 {
     background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
-} 
-.and{
-color: aqua;
-}  
+}  */
 
-.copita{
-color: #52e0e0;
+
+.and,
+.copita,
+.advokat{
+color: rgb(103, 100, 101);
 }
 
 
+
+.roga,
+.obyed{
+  color: rgb(128, 128, 128);
+}
 
 /* .adres-list {
     display: flex;
     
 } */
+
+.adres-list {
+    border: 2px solid rgb(139, 69, 19);
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
 
 .adress-mail,
 .adress-call {
