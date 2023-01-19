@@ -126,7 +126,7 @@ color: rgb(103, 100, 101);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 900px;
-    
+    color: rgb(0, 0, 0);
     
     font-weight: 900;
     font-size: 44px;
@@ -136,6 +136,13 @@ color: rgb(103, 100, 101);
     text-align: center;
     text-transform: uppercase;
 
+}
+
+.title-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* .material-symbols-outlined {
    
