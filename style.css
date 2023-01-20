@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-
+h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}
 ul {
     list-style: none;
 }
@@ -17,8 +20,8 @@ nav{
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     height: auto;
     display: flex;
     padding-top: 5px;
@@ -30,6 +33,7 @@ nav{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
     
 }
 
@@ -43,7 +47,7 @@ nav{
 }
 
 .nav-list li {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     padding: 10px 15px;
     border-radius: 5px;
   
@@ -57,27 +61,9 @@ nav{
 }
 
 
-
-
-
-
-main {
-    background-image: linear-gradient(rgb(201, 201, 223, 0.4), rgb(255, 250, 192, 0.4)),url(img/business-people-shaking-hands-together.jpg);
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-}
-
 .logo {
     text-align: center;
+    margin-left: 20px;
 
     
 }
@@ -92,8 +78,6 @@ main {
 .advokat{
 color: rgb(103, 100, 101);
 }
-
-
 
 .roga,
 .obyed{
@@ -110,7 +94,6 @@ color: rgb(103, 100, 101);
     margin-left: 15px;
     padding: 10px 15px;
     border-radius: 5px;
-
 }
 
 .adress-mail,
@@ -120,31 +103,259 @@ color: rgb(103, 100, 101);
 
 }
 
-.main-title {
-    position: absolute;
-    top: 50%;
+
+main {    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    position: relative;    
+}
+
+.herou {
+    background-image: linear-gradient(rgb(201, 201, 223, 0.4), rgb(255, 250, 192, 0.4)), url(img/business-people-shaking-hands-together.jpg);
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: auto;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    height: 385px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.herou-title {
+    /* position: absolute;
+    top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 900px;
+    transform: translate(-50%, -50%); */
+    min-width: 1200px;
     color: rgb(0, 0, 0);
-    
     font-weight: 900;
     font-size: 44px;
-   
-    
+    padding-top: 150px;
     margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
+    
 
 }
 
-.title-btn {
-    position: absolute;
-    top: 50%;
+.herou-btn {
+    /* position: absolute;
+    top: 75%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    border: none;
+    border-style: none;
+    border: 2px solid rgb(139, 69, 19);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(224, 156, 107);
+    color: rgb(139, 69, 19);
+    /* text-align: center; */   
+    
 }
-/* .material-symbols-outlined {
-   
-} */
 
+.herou-btn:hover {
+    background-color: rgb(139, 69, 19);
+    color: white;
+    
+
+}
+
+.team {
+    background-color: rgba(255, 235, 205, 0.1);
+    width: auto;
+    position: relative;
+    height: 920px;
+
+}
+
+/* .team [alt="vignette"] {
+
+    width: 800px;
+    height: 30px;
+} */
+.team-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.team-header h3 {
+    border-left: 2px solid rgb(139, 69, 19);
+    border-right: 2px solid rgb(139, 69, 19);
+    color: rgb(103, 100, 101);
+    font-size: 36px;
+
+}
+
+.btn-left,
+.btn-right {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(139, 69, 19);
+    border: none;
+    border-radius: 5px;
+    border-right: 2px;
+}
+
+.btn-rotate {
+    position: absolute;
+    transform: rotate(90deg);
+    width: 963px;
+    height: 3px;
+    background-color: rgb(139, 69, 19);
+    border: none;
+    border-radius: 5px;
+    border-right: 2px;
+    left: 10%;
+    top: 62%;
+}
+
+.main-div-team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main-div-team_item img {
+    width: 295px;
+    height: 195px;
+
+}
+
+.main-div-team_item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 21%), 0px 9px 29px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.main-div-team_item-free,
+.main-div-team_item {
+    width: 295px;
+    height: auto;
+}
+
+.nepara{
+
+    margin-right: 150px;
+}
+
+.para {
+
+    margin-left: 150px;
+}
+
+.main-div-team_item-free {
+border: 2px solid rgb(139, 69, 19);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+width: 295px;
+height: 239px;
+position: relative;
+overflow: hidden;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+}
+
+.team-link {
+    cursor: pointer;
+}
+
+.item-free-p {
+    margin-top: 100px;
+}
+
+
+
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+    font-size: 25px;
+    
+}
+
+.team-link:hover .over{
+transform: translateY(0%);
+color: white;
+background-color: rgb(139, 69, 19);
+
+}
+
+.bgi-pointer {
+    background-image: url(img/cursor-pointer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* 
+
+/* 
+
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 18px;
+line-height: 1.556;
+letter-spacing: 0.03em;
+padding: 63px 24px;
+color: var(--background-main-color);
+background: rgba(33, 150, 243, 0.9);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transform: translateY(100%);
+
+*/
+
+/* <a href="" class="p-work-item-link">
+                        
+    <p class="over">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+    </p>
+                       
+                        
+</a> */
+
+
+
+
+
+
+
+
+*/
+
+
+/* 
+.p-work-item-link {
+    display: block;
+    overflow: hidden;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+*/
