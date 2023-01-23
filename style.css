@@ -11,7 +11,7 @@ ul {
 }
 
 a {
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 
@@ -322,7 +322,7 @@ background-color: rgb(139, 69, 19);
     background-image: url(img/hammer-308489.svg);
     background-repeat: repeat;
     background-size:  200px 200px;
-    border: 2px solid   tomato;
+   
     max-width: 1200px;
     /* height: 600px; */
     position: relative;
@@ -334,7 +334,7 @@ background-color: rgb(139, 69, 19);
         /* display: flex;
         flex-wrap: wrap;
         justify-content: center; */
-    padding-bottom: 30px;
+   
     /* padding-left: 15px;
     padding-right: 15px; */
 
@@ -385,6 +385,221 @@ background-color: rgb(139, 69, 19);
     margin-bottom: 30px;
 
 }
+
+/* ********СУДОВА ПРАКТИКА */
+
+.court-practice {
+    background-image: url(img/femida/femida-mech.png);
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    /* background-size: 200px 200px; */
+    /* border: 2px solid tomato; */
+    max-width: 1200px;
+        /* height: 600px; */
+    position: relative;
+        /* height: 920px; */
+    padding-bottom: 30px;
+        /* border: 2px solid tomato; */
+    margin-left: auto;
+    margin-right: auto;
+        /* display: flex;
+            flex-wrap: wrap;
+            justify-content: center; */
+    
+        padding-left: 30px;
+        padding-right: 30px;
+}
+
+.court-practice-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+
+.court-practice-header>h3 {
+    border-left: 2px solid rgb(139, 69, 19);
+    border-right: 2px solid rgb(139, 69, 19);
+    color: rgb(103, 100, 101);
+    font-size: 36px;
+}
+
+.court-practice-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+.court-practice-list_item:nth-child(2n){
+
+    margin-left: 200px;
+}
+
+
+.court-practice-list_item {
+    width: 400px;
+    height: 250px;
+    /* background-image: url(img/femida/femida-vesy.png) ; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid rgb(139, 69, 19);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+
+    
+}
+
+.court-practice-btn {
+border: none;
+border-style: none;
+border: 2px solid rgb(139, 69, 19);
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+background-color: rgb(224, 156, 107);
+color: rgb(139, 69, 19);
+}
+
+.court-practice-btn:hover{
+    background-color: rgb(139, 69, 19);
+    color: white;
+
+}
+
+
+.court-practice-list_item p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.court-practice-btn {
+    margin-top: 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+
+}
+
+    /*  {{{{{{{{{{{{{{{ < !-- корисні посилання -->}}}}}}}}}}}}}}}}}} */
+
+.links {
+    background-color: rgba(255, 235, 215, 0.2);
+    max-width: 1200px;
+    position: relative;
+    /* height: 920px; */
+    padding-bottom: 30px;
+    /* border: 2px solid tomato; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.links-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+
+.links-header>h3 {
+    border-left: 2px solid rgb(139, 69, 19);
+    border-right: 2px solid rgb(139, 69, 19);
+    color: rgb(103, 100, 101);
+    font-size: 36px;
+}
+
+.list-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.list-link-items div{
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-size: 14px;
+   padding-top: 20px;
+    /* padding-left: 10px; */
+    text-align: center;
+  
+}
+
+.president {
+    background-image: url(img/link/president.svg);
+    background-size: contain;
+}
+
+.president:hover {
+    background-image: url(img/link/president_hover.svg);
+    color: blue;  
+    
+}
+
+ .edsr{
+    background-image: url(img/link/edrsr.svg);
+    background-size: contain;
+ }
+
+ .edsr:hover {
+     background-image: url(img/link/edrsr_hover.svg);
+    color: blue;
+ }
+ 
+ .minust{
+    background-image: url(img/link/minust.svg);
+    background-size: contain;
+ } 
+
+ .minust:hover {
+     background-image: url(img/link/minust_hover.svg);
+    color: blue;
+ }
+
+ .uport {
+     background-image: url(img/link/uport.svg);
+     background-size: contain;
+ }
+
+ .uport:hover {
+     background-image: url(img/link/uport_hover.svg);
+    color: blue;
+ }
+
+.vru {
+    background-image: url(img/link/vru.svg);
+    background-size: contain;
+}
+
+.vru:hover {
+    background-image: url(img/link/vru_hover.svg);
+    color: blue;
+}
+
+ .adv {
+    background-image: url(img/link/advokat.svg);
+    background-size: contain;
+}
+
+.adv:hover {
+    background-image: url(img/link/advokat_hover.svg);
+    color: blue;
+}
+
+
+
+
 
 
 /* position: absolute;
