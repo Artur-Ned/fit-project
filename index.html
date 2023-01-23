@@ -77,7 +77,9 @@
           максимально ефективне <br />
           рішення для вас
         </h1>
-        <button type="button" class="herou-btn">Замовити послугу</button>
+        <a href="#contakts">
+          <button type="button" class="herou-btn">Замовити послугу</button>
+        </a>
       </section>
 
       <!-- *************section team **************-->
@@ -113,7 +115,17 @@
 
         <div class="main-div-team">
           <a class="team-link">
-            <div class="main-div-team_item-free nepara"></div>
+            <div class="main-div-team_item-free nepara">
+              <div class="item-free-p"><p>Слоган Михайла</p></div>
+
+              <p class="over">
+                <br />
+                <br />
+                <br />
+                Проблему легше передбачити, нiж виправляти!!!
+              </p>
+              <div class="bgi-pointer"></div>
+            </div>
           </a>
           <div class="main-div-team_item para">
             <img src="img/men.png" alt="men" />
@@ -128,19 +140,40 @@
             <h3>Микола Кмітливий</h3>
             <p>Провідний спеціаліст</p>
           </div>
+
           <a class="team-link">
-            <div class="main-div-team_item-free para"></div>
+            <div class="main-div-team_item-free para">
+              <div class="item-free-p"><p>Слоган Миколи</p></div>
+
+              <p class="over">
+                <br />
+                <br />
+                <br />
+                Iнколи щоби напасти - треба відступити!!!
+              </p>
+              <div class="bgi-pointer"></div>
+            </div>
           </a>
         </div>
 
         <div class="main-div-team">
           <a class="team-link">
-            <div class="main-div-team_item-free nepara"></div>
+            <div class="main-div-team_item-free nepara">
+              <div class="item-free-p"><p>Слоган Джавелiни</p></div>
+
+              <p class="over">
+                <br />
+                <br />
+                <br />
+                Стукайте i Вам вiдчинять!!!
+              </p>
+              <div class="bgi-pointer"></div>
+            </div>
           </a>
           <div class="main-div-team_item para">
             <img src="img/women.png" alt="women" />
-            <h3>Джавеліна Насамівна</h3>
-            <p>Пробівний фахівець</p>
+            <h3>Джавелiна Насамiвна</h3>
+            <p>Пробiвний фахiвець</p>
           </div>
         </div>
 
@@ -377,7 +410,98 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <!-- id="contakts" -->
+      <div class="footer-div">
+        <div class="logo">
+          <h3 class="logo-name">
+            <span class="advokat">Адвокатське</span
+            ><span class="obyed"> об'єднання</span><br />
+            <span class="roga">"Рога</span><span class="and">&</span
+            ><span class="copita">Копита"</span>
+          </h3>
+          <img src="img/owl-5986451.svg" alt="sova" class="sova" />
+        </div>
+
+        <div class="footer-div-adress">
+          <ul class="adres-list">
+            <li class="adress-text">
+              Україна, 65000 мiсто Одеса<br />
+              вул.Будь-яка, 8
+            </li>
+            <li class="adress-call">
+              <span class="material-symbols-outlined"> call </span>
+              <a href="tel:+38067654321">+38067654321</a>
+            </li>
+            <li class="adress-mail">
+              <span class="material-symbols-outlined"> mail </span>
+              <a href="mailto:zakon_kak@palka.com">zakon_kak@lubit-palku.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="foter-work">
+          <span class="span-form-heder">Графік роботи</span>
+          <ul class="foter-work-list">
+            <li class="foter-work-list_item">
+              <div>Понеділок</div>
+              <div class="time">9:00-18:00</div>
+            </li>
+            <li class="foter-work-list_item">
+              <div>Вівторок</div>
+              <div class="time">9:00-18:00</div>
+            </li>
+            <li class="foter-work-list_item">
+              <div>Cереда</div>
+              <div class="time">9:00-18:00</div>
+            </li>
+            <li class="foter-work-list_item">
+              <div>Четверг</div>
+              <div class="time">9:00-18:00</div>
+            </li>
+            <li class="foter-work-list_item">
+              <div>П'ятниця</div>
+              <div class="time">9:00-18:00</div>
+            </li>
+            <li class="foter-work-list_item">
+              <div>Субота</div>
+              <div class="time">вихідний</div>
+            </li>
+            <li class="foter-work-list_item">
+              <div>Неділя</div>
+              <div class="time">вихідний</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="div-form">
+          <form class="footer-form" id="contakts">
+            <div class="div-label">
+              <span class="span-form-heder">Зворотнiй зв'язок:</span>
+              <label class="lab-text">
+                <p>П.I.Б</p>
+                <input type="text" name="name" />
+              </label>
+              <label class="lab-email">
+                <p>Пошта</p>
+                <input type="email" name="email" />
+              </label>
+              <label class="lab-phone">
+                <p>Телефон</p>
+                <input type="tel" name="tel" />
+              </label>
+            </div>
+            <div class="div-textarea">
+              <label class="lab-textarea">
+                <div><span class="span-form-heder">Опишiть проблему</span></div>
+                <textarea name="p-holder" placeholder="dkjv-sdvsvd"> </textarea>
+                <button type="button" class="textarea-btn">Надiслати</button>
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
     <!-- <a href="#part1">Глава 1</a>
 При щелчке по такой ссылке браузер найдёт на странице элемент с соответствующим атрибутом id и прокрутит окно страницы к нему.
 
