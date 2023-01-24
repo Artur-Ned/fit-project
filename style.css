@@ -61,6 +61,7 @@ nav{
     text-underline-offset: 20px;
     text-decoration-thickness: 4px;
     text-decoration-color:rgb(139, 69, 19);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -178,6 +179,7 @@ main {
 .herou-btn:hover {
     background-color: rgb(139, 69, 19);
     color: white;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
 }
@@ -312,6 +314,7 @@ align-items: center; */
 transform: translateY(0%);
 color: white;
 background-color: rgb(139, 69, 19);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -478,7 +481,7 @@ color: rgb(139, 69, 19);
 .court-practice-btn:hover{
     background-color: rgb(139, 69, 19);
     color: white;
-
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -553,7 +556,8 @@ color: rgb(139, 69, 19);
 
 .president:hover {
     background-image: url(img/link/president_hover.svg);
-    color: blue;  
+    color: blue;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -565,6 +569,7 @@ color: rgb(139, 69, 19);
  .edsr:hover {
      background-image: url(img/link/edrsr_hover.svg);
     color: blue;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
  .minust{
@@ -575,6 +580,7 @@ color: rgb(139, 69, 19);
  .minust:hover {
      background-image: url(img/link/minust_hover.svg);
     color: blue;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .uport {
@@ -585,6 +591,7 @@ color: rgb(139, 69, 19);
  .uport:hover {
      background-image: url(img/link/uport_hover.svg);
     color: blue;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .vru {
@@ -595,6 +602,7 @@ color: rgb(139, 69, 19);
 .vru:hover {
     background-image: url(img/link/vru_hover.svg);
     color: blue;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .adv {
@@ -605,6 +613,7 @@ color: rgb(139, 69, 19);
 .adv:hover {
     background-image: url(img/link/advokat_hover.svg);
     color: blue;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -638,6 +647,7 @@ footer {
 
 .footer-div-adress a:hover {
     color: white;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 /* .adres-list .adress-call {
@@ -748,6 +758,7 @@ font-weight: bold;
 .textarea-btn:hover{
     background-color: rgb(139, 69, 19);
     color: white;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 /* border: none;
